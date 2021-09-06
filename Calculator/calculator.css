@@ -1,0 +1,51 @@
+body{
+    font-family: cursive;
+    z-index: 1;
+    padding: 0;
+    background: linear-gradient(to right, #00aaff, #00ff6c) 
+}
+input[type="button"]
+{
+background-color:#BAEAF4;
+color: #062329;
+width:100%;
+height: 100%;
+font-size: 30px;
+font-family: cursive;
+outline: none;
+}
+input[type="button"]:hover{
+    background-color: #062329;
+    color: #BAEAF4;
+}
+input[type="text"]{
+text-align: right;
+background-color:#002C32;
+width:100%;
+}
+.mainCalc{
+    width:  412px;
+    height: 610px;
+    border: 2px groove #00aaff;
+    margin: auto;
+}
+.screen{
+    width:  380px;
+    height: 180px;
+    border: solid transparent 2px;
+    margin: 10px 0px 10px 0px;
+    z-index: 2;
+}
+
+.screenMain{
+    height: 180px;
+    width: 380px;
+    border: none;
+    z-index: -1;
+    margin-top: 3px;
+    font-size: 60px;
+    color: grey;
+    text-align: center;
+    background-color: #002C32;
+    font-size: 2.25em; 
+}
